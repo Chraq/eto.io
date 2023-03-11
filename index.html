@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>HTML İSKELET</title>
+
+    <style type="text/css">
+        header,
+        nav,
+        section,
+        article,
+        footer {
+            width: 550px;
+            border: 3px groove lightblue;
+            margin: 10px;
+        }
+        article{
+            width: 520px;
+        }
+
+        nav ul li,
+        a {
+            display: inline;
+            margin: 10px;
+            text-decoration: none;
+            color: black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+        }
+
+        .bg {
+            background-color: rgb(124, 182, 179);
+            background-size: cover
+        }
+        div{
+            width: 475px;
+        }
+        nav ul li:hover{
+            background-color: blanchedalmond;
+            transition: 0.6s;
+        }
+    </style>
+</head>
+
+<body>
+
+    <body class="bg"></body>
+    <header>
+        <h1>HTML İSKELET YAPISI</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">anasayfa</a></li>
+            <li><a href="#">hakkunda</a></li>
+            <li><a href="#">biz</a></li>
+            <li><a href="#">iletişim</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h1>Ünlü ülkeler</h1>
+        <article>
+            <h1>Türkiye</h1>
+            <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officiis consequatur eos reprehenderit
+                blanditiis veritatis aut, porro velit ad repudiandae
+                ducimus doloremque </p></div>
+            <video controls width="450" height="250px">
+                <source src="video/tr.mp4">
+            </video>
+        </article>
+
+        <article>
+            <h1>İngiltere</h1>
+            <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officiis consequatur eos reprehenderit
+                blanditiis veritatis aut</p></div>
+            <iframe width="450" height="250" src="https://www.youtube.com/embed/X8zLJlU_-60"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </article>
+    </section>
+
+    <footer> &copy; 2023 Telif hakları saklıdır.</footer>
+</body>
+
+</html>
